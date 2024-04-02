@@ -50,7 +50,7 @@
 .productTitle {
   font-weight: 700;
   font-size: 1.7rem;
-  margin-right: 60rem;
+  margin-right: 50rem;
 }
 @media screen and (max-width: 576px) {
   .productContainer {
