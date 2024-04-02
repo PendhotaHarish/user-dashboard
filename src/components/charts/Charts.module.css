@@ -1,0 +1,63 @@
+.chartMainContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 2.2rem;
+  margin-left: 4rem;
+  border-radius: 1rem;
+  margin-right: 5rem;
+}
+.chartSubContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  width: 72rem;
+  border-radius: 1rem;
+}
+.chartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.chartHeader {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: black;
+  margin-left: 2rem;
+  line-height: 1.2;
+  padding: 1rem;
+}
+.chartYearly {
+  margin-right: 2rem;
+}
+.chartSelect {
+  border: none;
+  outline: none;
+  background: #d6dee0;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  width: 15rem;
+  border-radius: 20rem;
+}
+.chartTitle {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.chartSubtitle {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+@media screen and (max-width: 576px) {
+  .chartMainContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.8rem;
+    margin-left: 0;
+  }
+  .chartSubContainer {
+    width: 46rem;
+  }
+}

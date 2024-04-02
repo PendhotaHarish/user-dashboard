@@ -1,0 +1,5 @@
+.dashboard {
+  background-color: var(--color-light--3);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

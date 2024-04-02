@@ -1,0 +1,42 @@
+.pieMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 2rem;
+  background-color: white;
+  width: 40rem;
+  height: 27rem;
+  border-radius: 1rem;
+}
+.pieHeading {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: black;
+  margin-left: 2rem;
+  line-height: 1.2;
+  padding: 1rem;
+}
+.pieTitle {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.pieMessage {
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #aaa;
+}
+.pie {
+  margin-left: 2rem;
+  border-radius: 50%;
+}
+.chartTitle {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 576px) {
+  .pieMainContainer {
+    width: 46rem;
+    margin-left: 0;
+  }
+}

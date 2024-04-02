@@ -1,0 +1,56 @@
+.tableHead {
+  max-width: 122rem;
+  margin: auto;
+}
+
+.table {
+  width: 100%;
+}
+.tableContainers {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.tableImg {
+  width: 7rem;
+  border-radius: 1rem;
+}
+.productName {
+  font-weight: 800;
+  font-size: 1.5rem;
+  margin: 0;
+}
+.productInfo {
+  font-size: 1rem;
+  color: #aaa;
+  margin: 0;
+}
+.rowHead {
+  font-size: 1.2rem;
+  color: #aaa;
+  text-align: center;
+}
+.mainHead {
+  font-size: 1.2rem;
+  color: #aaa;
+  text-align: left;
+  margin-left: 1.5rem;
+}
+.productStock {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}
+.productPrice {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.productSales {
+  font-size: 1.1rem;
+  font-weight: 300;
+  margin: 0;
+  text-align: center;
+}

@@ -1,0 +1,93 @@
+.cardContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 2.2rem;
+  margin-left: 4rem;
+  margin-right: 5rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+  width: 29rem;
+  transition: 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.cardIcon {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  color: green;
+  background-color: lightgreen;
+  padding: 20px;
+  border-radius: 50%;
+}
+.cardIconTwo {
+  color: darkviolet;
+  background-color: violet;
+}
+.cardIconThree {
+  color: darkblue;
+  background-color: skyblue;
+}
+.cardIconFour {
+  color: red;
+  background-color: lightcoral;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  font-size: 2rem;
+  color: black;
+}
+.cardPercentage {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 3px;
+}
+.title {
+  color: #aaa;
+  font-size: 1rem;
+}
+.amount {
+  font-size: 2rem;
+}
+.icon {
+  color: green;
+  font-size: 1.5rem;
+}
+.redIcon {
+  color: red;
+  font-size: 1.5rem;
+}
+.percentage {
+  color: green;
+  font-size: 1.2rem;
+}
+.redPercentage {
+  color: red;
+  font-size: 1.2rem;
+}
+.message {
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 576px) {
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.4rem;
+    margin-left: 0;
+  }
+  .card {
+    width: 100%;
+  }
+}
