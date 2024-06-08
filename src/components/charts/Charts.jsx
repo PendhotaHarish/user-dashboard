@@ -53,7 +53,7 @@ export default function Charts() {
       pv: 30,
     },
   ];
-  const isSmallScreen = window.innerWidth <= 576;
+  const isSmallScreen = window.innerWidth <= 480;
 
   return (
     <div className={styles.chartMainContainer}>
@@ -72,7 +72,7 @@ export default function Charts() {
           </div>
         </div>
         <BarChart
-          width={isSmallScreen ? 400 : 500}
+          width={isSmallScreen ? 350 : 500}
           height={200}
           data={data}
           margin={{
