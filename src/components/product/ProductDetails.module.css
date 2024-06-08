@@ -52,21 +52,7 @@
   font-size: 1.7rem;
   margin-right: 50rem;
 }
-/* @media screen and (max-width: 576px) {
-  .productContainer {
-    width: 46rem;
-    margin-left: 0;
-  }
-  .productTitle {
-    margin-right: 2rem;
-  }
-  .productInput {
-    width: 10rem;
-  }
-  .productSelect {
-    width: 10rem;
-  }
-} */
+
 /* Mobile portrait */
 @media (max-width: 480px) and (orientation: portrait) {
   .productContainer {
@@ -100,7 +86,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 834px) and (orientation: landscape) {
   .productContainer {
     margin-left: 1rem;
     margin-right: 1rem;

@@ -35,9 +35,36 @@ body {
   overflow: hidden;
   height: 100vh;
 }
-@media screen and (max-width: 576px) {
+/* Mobile portrait */
+@media (max-width: 768px) and (orientation: portrait) {
+  html {
+    font-size: 55%;
+  }
+
   .dashboards {
-    display: block;
-    overflow-y: scroll;
+    flex-direction: column;
+    overflow-y: auto;
+    height: auto;
+  }
+
+  body {
+    padding: 1rem;
+  }
+}
+
+/* Mobile landscape */
+@media (max-width: 834px) and (orientation: landscape) {
+  html {
+    font-size: 55%;
+  }
+
+  .dashboards {
+    flex-direction: row;
+    overflow-x: auto;
+    height: auto;
+  }
+
+  body {
+    padding: 1rem;
   }
 }

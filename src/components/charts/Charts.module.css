@@ -50,17 +50,7 @@
   font-size: 1.2rem;
   color: #aaa;
 }
-/* @media screen and (max-width: 576px) {
-  .chartMainContainer {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 0.8rem;
-    margin-left: 0;
-  }
-  .chartSubContainer {
-    width: 46rem;
-  }
-} */
+
 /* Mobile portrait */
 @media (max-width: 480px) and (orientation: portrait) {
   .chartMainContainer {
@@ -105,7 +95,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 834px) and (orientation: landscape) {
   .chartMainContainer {
     flex-direction: row;
     flex-wrap: wrap;

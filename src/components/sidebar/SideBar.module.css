@@ -91,21 +91,6 @@ span {
 .closeIcon {
   display: none;
 }
-/* @media screen and (max-width: 576px) {
-  .side {
-    display: none;
-  }
-  .closeIcon {
-    display: inline;
-    color: white;
-    margin-left: 4rem;
-    font-size: 2.6rem;
-    background-color: blueviolet;
-    border-radius: 50%;
-    padding: 1rem;
-  }
-} */
-
 @media (max-width: 480px) and (orientation: portrait) {
   .side {
     width: 100%;
@@ -172,7 +157,7 @@ span {
   }
 }
 /* Mobile landscape */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 834px) and (orientation: landscape) {
   .side {
     width: 100%;
     height: auto;
