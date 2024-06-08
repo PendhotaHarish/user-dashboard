@@ -78,9 +78,9 @@
   font-size: 1.2rem;
 }
 .message {
-  font-size: 1.2rem;
+  font-size: 0.7rem;
 }
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .cardContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -89,5 +89,106 @@
   }
   .card {
     width: 100%;
+  }
+} */
+/* Mobile portrait */
+@media (max-width: 480px) and (orientation: portrait) {
+  .cardContainer {
+    flex-direction: column;
+    margin: 1rem;
+    gap: 1rem;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .cardIcon {
+    font-size: 3rem;
+    padding: 10px;
+  }
+
+  .cardDetails {
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .amount {
+    font-size: 1.8rem;
+  }
+
+  .cardPercentage {
+    justify-content: center;
+  }
+
+  .percentage,
+  .redPercentage {
+    font-size: 1rem;
+  }
+
+  .icon,
+  .redIcon {
+    font-size: 1.2rem;
+  }
+
+  .message {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+  .cardContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    gap: 1rem;
+  }
+
+  .card {
+    flex-direction: row;
+    width: calc(50% - 1rem);
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .cardIcon {
+    font-size: 3.5rem;
+    padding: 15px;
+  }
+
+  .cardDetails {
+    align-items: flex-start;
+    font-size: 1.6rem;
+  }
+
+  .title {
+    font-size: 0.95rem;
+  }
+
+  .amount {
+    font-size: 1.9rem;
+  }
+
+  .percentage,
+  .redPercentage {
+    font-size: 1.1rem;
+  }
+
+  .icon,
+  .redIcon {
+    font-size: 1.3rem;
+  }
+
+  .message {
+    font-size: 1.1rem;
   }
 }

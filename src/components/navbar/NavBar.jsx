@@ -7,8 +7,8 @@ export default function NavBar({ OpenSidebar }) {
   return (
     <div className={styles.navHeader}>
       <h1 className={styles.navTitle}>
-        <IoMdMenu className={styles.menuIcon} onClick={OpenSidebar} /> Hello
-        Harish 👋,
+        <IoMdMenu className={styles.menuIcon} onClick={OpenSidebar} />
+        Hello Harish 👋,
       </h1>
       <div className={styles.navSearch}>
         <TbSearch className={styles.navIcon} />

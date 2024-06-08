@@ -50,7 +50,7 @@
   font-size: 1.2rem;
   color: #aaa;
 }
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
   .chartMainContainer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -59,5 +59,94 @@
   }
   .chartSubContainer {
     width: 46rem;
+  }
+} */
+/* Mobile portrait */
+@media (max-width: 480px) and (orientation: portrait) {
+  .chartMainContainer {
+    flex-direction: column;
+    margin: 1rem;
+  }
+
+  .chartSubContainer {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .chartContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .chartHeader {
+    margin-left: 0;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+  .chartYearly {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .chartSelect {
+    font-size: 1rem;
+    width: 100%;
+    padding: 0.3rem;
+  }
+
+  .chartTitle {
+    font-size: 1.5rem;
+  }
+
+  .chartSubtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Mobile landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+  .chartMainContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+  }
+
+  .chartSubContainer {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .chartContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .chartHeader {
+    margin-left: 0;
+    padding: 0.5rem;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .chartYearly {
+    margin-right: 0;
+    text-align: center;
+    flex-basis: 100%;
+  }
+
+  .chartSelect {
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 0.4rem;
+  }
+
+  .chartTitle {
+    font-size: 1.6rem;
+  }
+
+  .chartSubtitle {
+    font-size: 1.1rem;
   }
 }
