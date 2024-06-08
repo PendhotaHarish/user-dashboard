@@ -71,7 +71,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 834px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .pieMainContainer {
     width: 100%;
     height: auto;

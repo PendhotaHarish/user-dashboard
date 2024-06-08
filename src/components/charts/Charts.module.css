@@ -95,7 +95,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 834px) and (orientation: landscape) {
+@media (max-width: 1024px) and (orientation: landscape) {
   .chartMainContainer {
     flex-direction: row;
     flex-wrap: wrap;
