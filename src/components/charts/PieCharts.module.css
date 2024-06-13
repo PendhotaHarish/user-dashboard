@@ -71,7 +71,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 950px) and (orientation: landscape) {
   .pieMainContainer {
     width: 100%;
     height: auto;
@@ -105,7 +105,7 @@
   }
 }
 /* Tablet (portrait) */
-@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+@media (min-width: 481px) and (max-width: 1024px) and (orientation: portrait) {
   .pieMainContainer {
     width: 100%;
     height: auto;
