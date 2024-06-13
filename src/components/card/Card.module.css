@@ -134,7 +134,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   .cardContainer {
     flex-direction: row;
     flex-wrap: wrap;
@@ -179,5 +179,110 @@
 
   .message {
     font-size: 1.1rem;
+  }
+}
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+  .cardContainer {
+    flex-direction: column;
+    margin: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .card {
+    flex-direction: column;
+    width: 100%;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .cardIcon {
+    font-size: 4rem;
+    padding: 15px;
+  }
+
+  .cardDetails {
+    align-items: center;
+    text-align: center;
+    font-size: 1.7rem;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .amount {
+    font-size: 2rem;
+  }
+
+  .cardPercentage {
+    justify-content: center;
+  }
+
+  .percentage,
+  .redPercentage {
+    font-size: 1.2rem;
+  }
+
+  .icon,
+  .redIcon {
+    font-size: 1.4rem;
+  }
+
+  .message {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  .cardContainer {
+    flex-direction: row;
+    margin: 2rem;
+    gap: 2rem;
+  }
+
+  .card {
+    flex-direction: row;
+    width: 45%;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .cardIcon {
+    font-size: 4.5rem;
+    padding: 20px;
+  }
+
+  .cardDetails {
+    align-items: flex-start;
+    text-align: left;
+    font-size: 1.8rem;
+  }
+
+  .title {
+    font-size: 1.2rem;
+  }
+
+  .amount {
+    font-size: 2.2rem;
+  }
+
+  .cardPercentage {
+    justify-content: flex-start;
+  }
+
+  .percentage,
+  .redPercentage {
+    font-size: 1.3rem;
+  }
+
+  .icon,
+  .redIcon {
+    font-size: 1.5rem;
+  }
+
+  .message {
+    font-size: 1.3rem;
   }
 }

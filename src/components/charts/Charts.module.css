@@ -95,7 +95,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   .chartMainContainer {
     flex-direction: row;
     flex-wrap: wrap;
@@ -138,5 +138,91 @@
 
   .chartSubtitle {
     font-size: 1.1rem;
+  }
+}
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+  .chartMainContainer {
+    flex-direction: column;
+    margin: 1.5rem;
+  }
+
+  .chartSubContainer {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .chartContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .chartHeader {
+    margin-left: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .chartYearly {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .chartSelect {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .chartTitle {
+    font-size: 1.7rem;
+  }
+
+  .chartSubtitle {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  .chartMainContainer {
+    flex-direction: row;
+    margin: 2rem;
+    gap: 2rem;
+  }
+
+  .chartSubContainer {
+    width: 48%;
+    padding: 2rem;
+  }
+
+  .chartContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .chartHeader {
+    margin-left: 0;
+    padding: 1.5rem;
+    text-align: left;
+  }
+
+  .chartYearly {
+    margin-right: 0;
+    text-align: left;
+  }
+
+  .chartSelect {
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .chartTitle {
+    font-size: 2rem;
+  }
+
+  .chartSubtitle {
+    font-size: 1.4rem;
   }
 }

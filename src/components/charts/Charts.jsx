@@ -72,7 +72,7 @@ export default function Charts() {
           </div>
         </div>
         <BarChart
-          width={isSmallScreen ? 350 : 500}
+          width={isSmallScreen ? 300 : 400}
           height={200}
           data={data}
           margin={{

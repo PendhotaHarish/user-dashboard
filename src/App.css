@@ -53,7 +53,7 @@ body {
 }
 
 /* Mobile landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   html {
     font-size: 55%;
   }
@@ -66,5 +66,38 @@ body {
 
   body {
     padding: 1rem;
+  }
+}
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+  html {
+    font-size: 60%;
+  }
+
+  .dashboards {
+    flex-direction: column;
+    overflow-y: auto;
+    height: auto;
+  }
+
+  body {
+    padding: 1.5rem;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  html {
+    font-size: 65%;
+  }
+
+  .dashboards {
+    flex-direction: row;
+    overflow-y: auto;
+    height: 100vh;
+  }
+
+  body {
+    padding: 2rem;
   }
 }

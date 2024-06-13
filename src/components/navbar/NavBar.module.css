@@ -71,7 +71,7 @@
   }
 }
 /* Mobile landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   .navHeader {
     flex-direction: row;
     justify-content: space-between;
@@ -98,6 +98,71 @@
     font-size: 1.8rem;
     cursor: pointer;
     margin-right: 1 rem;
+    margin-left: auto;
+  }
+}
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+  .navHeader {
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5rem;
+  }
+
+  .navTitle {
+    font-size: 2rem;
+    order: 0;
+  }
+
+  .navSearch {
+    width: 50%;
+    margin-top: 0;
+    order: 1;
+  }
+
+  .navInput {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+
+  .menuIcon {
+    display: inline;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    margin-left: auto;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  .navHeader {
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+  }
+
+  .navTitle {
+    font-size: 2.5rem;
+    order: 0;
+  }
+
+  .navSearch {
+    width: 60%;
+    margin-top: 0;
+    order: 1;
+  }
+
+  .navInput {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  .menuIcon {
+    display: inline;
+    font-size: 2.2rem;
+    cursor: pointer;
+    margin-right: 2rem;
     margin-left: auto;
   }
 }

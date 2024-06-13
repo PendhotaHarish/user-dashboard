@@ -71,7 +71,7 @@
 }
 
 /* Mobile landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   .pieMainContainer {
     width: 100%;
     height: auto;
@@ -102,5 +102,74 @@
 
   .chartTitle {
     font-size: 0.8rem;
+  }
+}
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+  .pieMainContainer {
+    width: 100%;
+    height: auto;
+    margin-left: 1.5rem;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .pieHeading {
+    margin-left: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .pieTitle {
+    font-size: 1.7rem;
+  }
+
+  .pieMessage {
+    font-size: 1.2rem;
+  }
+
+  .pie {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .chartTitle {
+    font-size: 1rem;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  .pieMainContainer {
+    width: 48%;
+    height: auto;
+    margin-left: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .pieHeading {
+    margin-left: 0;
+    padding: 1.5rem;
+    text-align: left;
+  }
+
+  .pieTitle {
+    font-size: 2rem;
+  }
+
+  .pieMessage {
+    font-size: 1.4rem;
+  }
+
+  .pie {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .chartTitle {
+    font-size: 1.2rem;
   }
 }

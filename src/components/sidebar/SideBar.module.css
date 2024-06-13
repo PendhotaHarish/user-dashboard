@@ -157,7 +157,7 @@ span {
   }
 }
 /* Mobile landscape */
-@media (max-width: 1024px) and (orientation: landscape) {
+@media (max-width: 768px) and (orientation: landscape) {
   .side {
     width: 100%;
     height: auto;
@@ -223,5 +223,139 @@ span {
     background-color: blueviolet;
     border-radius: 50%;
     padding: 1rem;
+  }
+}
+/* Tablet (portrait) */
+@media (min-width: 481px) and (max-width: 834px) and (orientation: portrait) {
+  .side {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    gap: 1.5rem;
+    display: none;
+  }
+
+  .sideMenu {
+    font-size: 1.4rem;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .sideIcon {
+    font-size: 2.2rem;
+  }
+
+  .icon {
+    font-size: 2.2rem;
+  }
+
+  .icons {
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+  }
+
+  .sideHeading {
+    font-size: 1.4rem;
+  }
+
+  .sideItem {
+    gap: 15px;
+    padding: 15px;
+    font-size: 1.2rem;
+  }
+
+  .user {
+    margin-top: 25px;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .userImage {
+    width: 30px;
+  }
+
+  .userIcon {
+    font-size: 2.7rem;
+  }
+
+  .userName {
+    font-size: 1rem;
+  }
+
+  .closeIcon {
+    display: inline;
+    color: white;
+    margin-left: 20rem;
+    font-size: 2.8rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 1.2rem;
+  }
+}
+
+/* Tablet (landscape) */
+@media (min-width: 835px) and (max-width: 1024px) and (orientation: landscape) {
+  .side {
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    gap: 2rem;
+  }
+
+  .sideMenu {
+    font-size: 1.6rem;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .sideIcon {
+    font-size: 2.4rem;
+  }
+
+  .icon {
+    font-size: 2.4rem;
+  }
+
+  .icons {
+    font-size: 1.4rem;
+    margin-right: 1.4rem;
+  }
+
+  .sideHeading {
+    font-size: 1.6rem;
+  }
+
+  .sideItem {
+    gap: 20px;
+    padding: 20px;
+    font-size: 1.4rem;
+  }
+
+  .user {
+    margin-top: 30px;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .userImage {
+    width: 35px;
+  }
+
+  .userIcon {
+    font-size: 3rem;
+  }
+
+  .userName {
+    font-size: 1.2rem;
+  }
+
+  .closeIcon {
+    display: inline;
+    color: white;
+    margin-left: 25rem;
+    font-size: 3rem;
+    background-color: blueviolet;
+    border-radius: 50%;
+    padding: 1.5rem;
   }
 }
